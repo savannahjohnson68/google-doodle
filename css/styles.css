@@ -15,3 +15,85 @@
   height: 300px;
   width: 600px;
 }
+
+.large-smoke {
+  animation-duration: 5s;
+  animation-name: opacity;
+  animation-iteration-count: infinite;
+  transition-timing-function: ease;
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0%;
+  }
+
+  50% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0%;
+  }
+}
+
+.smoke-L {
+  animation-duration: 6s;
+  animation-name: opacity;
+  animation-iteration-count: infinite;
+  transition-timing-function: ease;
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0%;
+  }
+
+  50% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0%;
+  }
+}
+
+.smoke-R {
+  animation-duration: 4s;
+  animation-name: opacity;
+  animation-iteration-count: infinite;
+  transition-timing-function: ease;
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0%;
+  }
+
+  50% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0%;
+  }
+}
+
+.wing,
+.wing-2 {
+  transform-origin: bottom left;
+  transform-box: fill-box;
+  animation-duration: 3s;
+  animation-name: flap;
+  animation-iteration-count: infinite;
+  transition-timing-function: ease;
+}
+
+@keyframes flap {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(30deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
