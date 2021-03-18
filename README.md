@@ -12,3 +12,5 @@ https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/viewBox
 https://css-tricks.com/animating-svg-css/
 https://codepen.io/kylewetton/pen/yLBwdJX
 https://css-tricks.com/
+favicon generator
+d20 png image https://pixabay.com/illustrations/d20-dice-dungeons-dragons-2699387/
